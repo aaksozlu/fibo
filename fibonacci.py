@@ -1,10 +1,10 @@
-a=0
-b=0
-c=0
+a=1
+b=1
+c=1
 
-for c < 10000;
-  print c
-  c=a+b
-  b=c
-  a=b
-  
+print("Fibo no, Golden Ration" )
+while c < 1000000:
+    print(c,",", c/a)
+    c=a+b
+    a=b
+    b=c
